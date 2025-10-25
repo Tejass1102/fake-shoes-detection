@@ -29,12 +29,12 @@ The app is built with **Streamlit** and uses a pre-trained model file (`shoe_mod
 
 ## 🗂️ Project Structure
 
-fake-shoes-detection/
-│
-├── app.py # Main Streamlit application
-├── shoe_model_v2.keras # Trained CNN model file
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+fake-shoes-detection/  
+│  
+├── app.py # Main Streamlit application  
+├── shoe_model_v2.keras # Trained CNN model file  
+├── requirements.txt # Dependencies  
+└── README.md # Project documentation  
 
 # 🔗Live Link:
 
