@@ -48,7 +48,7 @@ if uploaded_file is not None:
     score = float(prediction[0][0])
 
     # Step 6: Interpret result
-    if score > 0.5:
+    if score > 0.6:
         st.success(f"✅ Real Shoe ({score*100:.2f}%)")
     else:
         st.error(f"❌ Fake Shoe ({(1-score)*100:.2f}%)")
