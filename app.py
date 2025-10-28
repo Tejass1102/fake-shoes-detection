@@ -9,7 +9,7 @@ from PIL import Image
 # ------------------------------
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("shoe_model_v2.keras")
+    model = tf.keras.models.load_model("shoe_model_mobilenet_v2_final.keras")
     return model
 
 model = load_model()
